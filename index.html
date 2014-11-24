@@ -2347,7 +2347,7 @@ var tags2 = '';</script>
         attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
     });
 
-    var map = L.map('map')
+    var map = L.map('map', { zoomControl:false })
             .addLayer(mapboxTiles)
             .setView([38.8951, -77.0367], 14);
 </script>
